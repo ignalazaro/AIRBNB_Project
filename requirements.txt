@@ -1,3 +1,7 @@
 streamlit
 pandas
 pycaret
+streamlit_lottie
+PIL
+Image
+requests
