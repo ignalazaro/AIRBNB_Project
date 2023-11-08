@@ -2361,3 +2361,17 @@ pickle: {'deps_info': {'pip': '23.3.1', 'setuptools': '57.4.0', 'pycaret': '3.1.
 2023-11-08 19:15:27,042:INFO:Preloading libraries
 2023-11-08 19:15:27,086:INFO:Set up data.
 2023-11-08 19:15:27,110:INFO:Set up index.
+2023-11-08 19:48:43,431:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-08 19:48:43,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-08 19:48:43,433:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-08 19:48:43,433:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-08 19:48:45,103:INFO:Initializing load_model()
+2023-11-08 19:48:45,103:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-08 19:49:04,307:INFO:Initializing load_model()
+2023-11-08 19:49:04,308:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-08 19:50:44,415:INFO:Initializing load_model()
+2023-11-08 19:50:44,417:INFO:load_model(model_name=ml_gradient_airbnb.pkl, platform=None, authentication=None, verbose=True)
