@@ -42,7 +42,7 @@ with st.container():
 
 
 # Model
-model = load_model("ml_gradient_airbnb.pkl")
+model = load_model("ml_gradient_airbnb")
 st.header("Price Prediction System for Roma")
 
 neighbourhood = st.selectbox('Neighbourhood', options=[
