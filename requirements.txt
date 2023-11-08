@@ -2,6 +2,6 @@ streamlit
 pandas
 pycaret
 streamlit_lottie
-PIL
+Pillow
 Image
 requests
