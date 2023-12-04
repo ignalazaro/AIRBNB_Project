@@ -4887,3 +4887,37 @@ pickle: {'deps_info': {'pip': '23.3.1', 'setuptools': '57.4.0', 'pycaret': '3.1.
 2023-11-08 19:56:44,255:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
 2023-11-08 19:57:17,101:INFO:Initializing load_model()
 2023-11-08 19:57:17,102:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-12-04 10:31:43,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-04 10:31:43,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-04 10:31:43,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-04 10:31:43,879:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-12-04 10:31:46,140:INFO:Initializing load_model()
+2023-12-04 10:31:46,140:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-12-04 10:33:18,177:INFO:Initializing load_model()
+2023-12-04 10:33:18,179:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-12-04 10:33:18,882:INFO:Initializing load_model()
+2023-12-04 10:33:18,883:INFO:load_model(model_name=ml_gradient_airbnb, platform=None, authentication=None, verbose=True)
+2023-12-04 10:33:19,050:INFO:Initializing predict_model()
+2023-12-04 10:33:19,051:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x125cf1e40>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['accommodates'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['neighbourhood', 'room_type_x'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['neighbourhood', 'room_type_x'],
+                                    transformer=OneHotEncoder(cols=['neighbourhood',
+                                                                    'room_type_x'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 GradientBoostingRegressor(random_state=2114))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x128d37d00>)
+2023-12-04 10:33:19,051:INFO:Checking exceptions
+2023-12-04 10:33:19,051:INFO:Preloading libraries
+2023-12-04 10:33:19,058:INFO:Set up data.
+2023-12-04 10:33:19,071:INFO:Set up index.
