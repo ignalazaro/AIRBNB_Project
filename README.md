@@ -1,6 +1,6 @@
 # Airbnb Data Study - Rome Edition
 
-![Repository Cover]([link_to_your_cover_image.jpg](https://www.lavanguardia.com/files/image_948_465/uploads/2017/02/10/5fa3c86dbcfcd.jpeg))
+![Repository Cover](https://www.lavanguardia.com/files/image_948_465/uploads/2017/02/10/5fa3c86dbcfcd.jpeg)
 
 ## Overview
 
